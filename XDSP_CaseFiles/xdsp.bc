@@ -1,0 +1,44 @@
+# BC_SLIPW
+PATCH       1 2
+NAME        Solid_Wall
+#
+
+# BC_OUTFLOW
+KIND       1
+NAME       Absorbing_Wall
+NSCBK      0
+ORDER      1
+PATCH      3 4
+REFLECT    0
+THRUSTFLAG 0
+TYPE       0
+#
+
+# BC_SYMMETRY
+PATCH       5 5
+NAME        Rotation_Axis
+#
+
+# BC_SLIPW
+PATCH       6 7
+NAME        Solid_Wall
+#
+
+# BC_OUTFLOW
+KIND       1
+NAME       Absorbing_Wall
+NSCBK      0
+ORDER      1
+PATCH      8 8
+REFLECT    0
+THRUSTFLAG 0
+TYPE       0
+#
+
+# BC_VIRTUAL
+PATCH       9 10
+NAME        Solid_Wall
+#
+
+# END
+
